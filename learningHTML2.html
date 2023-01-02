@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intermediate HTML Exercise</title>
+</head>
+<body>
+    <nav>
+        <text>Inside of header - let's add a navbar with essential links</text>
+        <div>
+            <a href="">Home</a> <a href="">About</a> <a href="">Contact</a>
+        </div>
+        <hr class="solid">
+    </nav>
+    <main>
+        <h2>Here is the main section of our page - it consists of new articles</h2>
+        <article>
+            <h2>Article 1 - 1995 was a pretty crazy year for programming languages!</h2>
+            <text>Don't believe me? Just check this table out:</text>
+            <table>
+                <thead>
+                    <td><b>Language</b></td>
+                    <td style="margin: 1rem auto;"><b>Designed By</b></td>
+                    <td><b>First Appeared</b></td>
+                </thead>
+                <tr>
+                    <td>C++</td>
+                    <td>Bjarne Stroustrup</td>
+                    <td>1983</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Guido van Rossum</td>
+                    <td>1991</td>
+                </tr>
+                <tr>
+                    <td>Ruby</td>
+                    <td>Yukihiro Matsumoto("Matz"</td>
+                    <td>1995</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Brendan Eich</td>
+                    <td>1995</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>James Gosling</td>
+                    <td>1995</td>
+                </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Rasmus Lerdorf</td>
+                    <td>1995</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Article 2 - Coming soon...</h2>
+        </article>
+        <section>
+            <h2>Contact us!</h2>
+            <h2>General Information</h2>
+            <form action="#">
+                <div>
+                    <label for="FirstNameInput">First Name</label>
+                    <input type="text" id="FirstNameInput" name="FirstNameInput">
+                </div>
+                <div>
+                    <label for="LastNameInput">Last Name</label>
+                    <input type="text" id="LastNameInput" name="LastNameInput">
+                </div>
+                <div>
+                    <label for="EmailInput">Email</label>
+                    <input type="email" id="EmailInput" name="EmailInput">
+                </div>
+                <div>
+                    <label for="DateInput">Date of Birth</label>
+                    <input type="date" id="DateInput" name="DateInput">
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>Essential Questions</h2>
+            <form action="#">
+                <div>What kind of work do you need?</div>
+                <div>
+                    <label for="programming">Programming</label><input type="checkbox" id="programming" name="programming">
+                </div>
+                <div>
+                    <label for="design">Design:</label><input type="checkbox" id="design" name="design">
+                </div>
+                <div>
+                    <label for="singing">singing  </label>
+                    <input type="checkbox" id="singing" name="singing">
+                </div>
+                <div>
+                    <label for="comedy">Comedy:</label>
+                    <input type="checkbox" id="comedy" name="comedy">
+                </div>
+            </form>
+            <form action="#">
+                <div>How interested are you in our design skills?</div>
+                <div>
+                    <label for="verylow">Very Low</label>
+                    <input type="radio" id="verylow" name="verylow">
+                </div>
+                <div>
+                    <label for="low">Low</label>
+                    <input type="radio" id="low" name="low">
+                </div>
+                <div>
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="medium" name="medium">
+                </div>
+                <div>
+                    <label for="high">High</label>
+                    <input type="radio" id="high" name="high">
+                </div>
+                <div>
+                    <label for="veryhigh">Very High</label>
+                    <input type="radio" id="veryhigh" name="veryhigh">
+                </div>
+                <div>
+                    <input type="submit" value="Submit Me">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>Here's our footer, let's make sure we copyright this!</footer>
+</body>
+</html>

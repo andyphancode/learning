@@ -1,0 +1,20 @@
+doctype declaration tells browser it is using HTML
+
+Element describes something within HTML
+tag describes a <> instance
+content describes something within the tag
+
+tags can have attributes that tells something about the tag 
+
+divs and spans differ in a sense that spans are continuous while div often line breaks
+
+semantic HTML is a more descriptive way of what we've been doing
+	so instead of divs we're using stff like <nav> or <article> or <footer>
+	some examples:
+		header
+		nav
+		section
+		article
+		aside
+		footer
+
