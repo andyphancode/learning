@@ -1,0 +1,16 @@
+git and github are different things
+
+git is version control, github is a way to host code and is useful for developing projects
+
+a repository is like a folder on github 
+    can be public or private, visibility
+
+we clone a repository so we can work on it locally,
+then we reflect these changes via first committing a change
+then pushing it which sends the local commit to the remote repository
+
+things can be pushed to certain branches
+    branches are a useful tool, and you can merge these branches 
+    via a pull request or proposing the changes held within the branch
+
+    branches can be compared by the person approving the pull request 
